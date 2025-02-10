@@ -1,4 +1,4 @@
-# ANTLR4 parser for Python 3.13.1 &nbsp; [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# ANTLR4 parser for Python 3.13.2 &nbsp; [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ### About files:
  - PythonParser.g4 is the ANTLR4 parser grammar that based on the official [Python PEG grammar](https://docs.python.org/3.13/reference/grammar.html)
@@ -9,10 +9,10 @@
     - tokenizes fstring literals
     - and manage many other things
 
-- Example files from: [Python 3.13.1 Standard Lib](https://github.com/python/cpython/tree/3.13/Lib)<br/><br/>
+- Example files from: [Python 3.13 Standard Lib](https://github.com/python/cpython/tree/3.13/Lib)<br/><br/>
 
 ### Recent changes:
-- parser grammar update for Python 3.13.1
+- parser grammar update for Python 3.13.2
 - added ENCODING token
 - complete rewrite of fstring tokenizer in lexer grammar and PythonLexerBase class
   - now correctly tokenizes the followings in fstring:
